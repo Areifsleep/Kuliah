@@ -1,6 +1,6 @@
-const button = document.getElementById("changeText");
-const text = document.getElementById("text");
+const paragraph = document.getElementById("colorParagraph");
+const button = document.getElementById("changeColorButton");
 
 button.addEventListener("click", function () {
-  text.textContent = "Hello, World";
+  paragraph.style.color = "blue";
 });
